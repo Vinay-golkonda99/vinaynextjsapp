@@ -1,13 +1,13 @@
 // pages/contact.js
-import Link from 'next/link';
+import React from 'react';
 
-export default function Contact() {
+const ContactPage = () => {
   return (
     <div>
-      <h1>Contact Us</h1>
-      <Link href="/"><a>Home</a></Link>
-      <Link href="/about"><a>About</a></Link>
+      <h1>Contact Page</h1>
+      {/* Add content for your Contact page here */}
     </div>
   );
-}
+};
 
+export default ContactPage;
