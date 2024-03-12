@@ -1,13 +1,13 @@
 // pages/about.js
-import Link from 'next/link';
+import React from 'react';
 
-export default function About() {
+const AboutPage = () => {
   return (
     <div>
-      <h1>About Us</h1>
-      <Link href="/"><a>Home</a></Link>
-      <Link href="/contact"><a>Contact</a></Link>
+      <h1>About Page</h1>
+      {/* Add content for your About page here */}
     </div>
   );
-}
+};
 
+export default AboutPage;
